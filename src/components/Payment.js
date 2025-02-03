@@ -20,7 +20,7 @@ const Payment = () => {
       <img 
         src={QR} 
         alt="QR Code" 
-        style={{ width: '500px', height: 'auto', marginTop: '20px' }} 
+        style={{ width: '300px', height: 'auto', marginTop: '20px' }} 
       />
     </section>
   );

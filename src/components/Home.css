@@ -1,0 +1,102 @@
+/* Wrapper for the entire home section */
+.home-wrapper {
+    border: 3px solid #000;  /* Black border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Reduced padding */
+    margin: 80px auto; /* Centers the section */
+    width: 80%; /* Adjust width */
+    background-color: #f9f9f9; /* Light background */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.colored-line {
+    width: 80%;
+    height: 4px;
+    background: linear-gradient(to right, #de100c, #de100c);
+    border: none;
+    margin: 15px auto;
+    border-radius: 2px;
+}
+/* Home section inside the wrapper */
+#home {
+    text-align: center;
+    padding: 10px; /* Reduced padding */
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Ensures last elements do not add extra space */
+#home p:last-child,
+#home ul:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Reduce space below images */
+.home-logo {
+    width: auto;
+    height: 250px; /* Adjusted height */
+    border-radius: 10px;
+    margin-bottom: 10px; /* Avoid extra space */
+}
+
+.horizontal-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 30px 0 0 0;
+    justify-content: center;
+    margin-bottom: 50px; /* Reduced margin */
+}
+
+.horizontal-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+/* Circular and bordered images */
+.horizontal-list img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    padding: 5px;
+    margin-bottom: 8px; /* Reduce extra space */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #de100c;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #b50d0a;
+}
+
+.button-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}

@@ -9,7 +9,7 @@ const Products = () => {
       <h2>Our Products</h2>
       <div className="product-grid" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <div className="product" style={{ marginBottom: '20px' }}>
-          <img src={Cowmilk} alt="Product 1" style={{ width: '500px', height: 'auto' }} />
+          <img src={Cowmilk} alt="Product 1" style={{ width: '300px', height: 'auto' }} />
           <p style={{ marginRight: '10px' }}>Cow's Milk</p>
   <a 
     href="https://wa.me/917058453993" 
@@ -28,7 +28,7 @@ const Products = () => {
   </a>
         </div>
         <div className="product">
-          <img src={Buffalomilk} alt="Product 2" style={{ width: '500px', height: 'auto' }} />
+          <img src={Buffalomilk} alt="Product 2" style={{ width: '300px', height: 'auto' }} />
           <p>Buffalo's Milk</p>
           <a 
     href="https://wa.me/917058453993" 
