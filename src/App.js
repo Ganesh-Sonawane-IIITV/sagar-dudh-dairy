@@ -5,6 +5,7 @@ import Products from './components/Products';
 import Payment from './components/Payment';
 import Feedback from './components/Feedback';
 import Footer from './components/Footer';
+import About from './components/About'
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
+      <About/>
       <Products />
       <Payment />
       <Feedback />
