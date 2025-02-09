@@ -1,13 +1,24 @@
 /* Wrapper for the entire home section */
-.home-wrapper {
-    border: 3px solid #000;  /* Black border */
-    border-radius: 15px; /* Rounded corners */
-    padding: 20px; /* Reduced padding */
-    margin: 80px auto; /* Centers the section */
-    width: 80%; /* Adjust width */
-    background-color: #f9f9f9; /* Light background */
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-}
+/* .home-wrapper {
+    position: relative;
+    text-align: center;
+    padding-top: 80px;
+  } */
+  .home-wrapper {
+    padding-left: 10px;
+    margin-left: 10px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 50px 20px;
+  }
+
+  /* Set static background */
+body {
+    background: url('../assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+
 
 .colored-line {
     width: 80%;
@@ -19,6 +30,7 @@
 }
 /* Home section inside the wrapper */
 #home {
+  align-items: center;
     text-align: center;
     padding: 10px; /* Reduced padding */
     border: 2px solid #ddd;
@@ -35,11 +47,12 @@
 
 /* Reduce space below images */
 .home-logo {
-    width: auto;
-    height: 250px; /* Adjusted height */
-    border-radius: 10px;
-    margin-bottom: 10px; /* Avoid extra space */
-}
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+
 
 .horizontal-list {
     list-style: none;
@@ -100,3 +113,15 @@
     height: 20px;
     margin-right: 8px;
 }
+
+/* Ensure section ends with padding */
+.home-wrapper:last-child {
+    padding-bottom: 40px;
+  }
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+    .home-logo {
+      width: 120px;
+    }
+  }

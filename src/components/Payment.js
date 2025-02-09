@@ -7,7 +7,7 @@ const Payment = () => {
     <div className="payment-wrapper">
       <section id="payment">
         <h2>Payment</h2>
-        <p>Paytm Number: +91-XXXXXXXXXX</p>
+        <p>Paytm Number: +91-8554940296</p>
         <p>PhonePe Number: +91-XXXXXXXXXX</p>
         <p>Google Pay Number: +91-XXXXXXXXXX</p>
         <img src={QR} alt="QR Code" />
