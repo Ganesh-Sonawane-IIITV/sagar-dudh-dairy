@@ -12,14 +12,14 @@ const Products = () => {
           <div className="product">
             <img src={Cowmilk} alt="Cow's Milk" />
             <p>Cow's Milk</p>
-            <a href="https://wa.me/917058453993" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/918554940296" target="_blank" rel="noopener noreferrer">
               Enquiry
             </a>
           </div>
           <div className="product">
             <img src={Buffalomilk} alt="Buffalo's Milk" />
             <p>Buffalo's Milk</p>
-            <a href="https://wa.me/917058453993" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/918554940296" target="_blank" rel="noopener noreferrer">
               Enquiry
             </a>
           </div>

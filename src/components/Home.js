@@ -27,8 +27,8 @@ END:VCARD`;
       <section id="home">
         <img src={Logo} alt="Sagar Dairy" className="home-logo" />
         {/* Colored Horizontal Line */}
-        <h3>Owner</h3>
-        <h3>Sagar Sonawane</h3>
+        <h2>Owner</h2>
+        <h2>Sagar Sonawane</h2>
         <hr className="colored-line" />
         <h2>Sagar Dairy Farm</h2>
         <h2>Category: Dairy & Sweet</h2>
@@ -37,25 +37,25 @@ END:VCARD`;
           <li>
             <a href="tel:+918554940296" target="_blank" rel="noopener noreferrer" style={{ display: "flex", flexDirection: "column", alignItems: "center", textDecoration: "none" }}>
               <img src={phoneIcon} alt="Call Me" />
-              <span style={{ marginTop: "5px", textAlign: "center" }}>Call Me</span>
+              <span style={{ marginTop: "5px", textAlign: "center", color:"greenyellow" }}>Call Me</span>
             </a>
           </li>
           <li>
             <a href="https://wa.me/918554940296" target="_blank" rel="noopener noreferrer" style={{ display: "flex", flexDirection: "column", alignItems: "center", textDecoration: "none" }}>
               <img src={whatsapp} alt="WhatsApp" />
-              <span style={{ marginTop: "5px", textAlign: "center" }}>WhatsApp</span>
+              <span style={{ marginTop: "5px", textAlign: "center", color:"greenyellow" }}>WhatsApp</span>
             </a>
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/N3tVouYxbho5UVUW9" target="_blank" rel="noopener noreferrer" style={{ display: "flex", flexDirection: "column", alignItems: "center", textDecoration: "none" }}>
+            <a href="https://maps.app.goo.gl/vJF5XrzS5VagkpcEA" target="_blank" rel="noopener noreferrer" style={{ display: "flex", flexDirection: "column", alignItems: "center", textDecoration: "none" }}>
               <img src={direction} alt="Direction" />
-              <span style={{ marginTop: "5px", textAlign: "center" }}>Direction</span>
+              <span style={{ marginTop: "5px", textAlign: "center", color:"greenyellow" }}>Direction</span>
             </a>
           </li>
           <li>
-            <a href="mailto:sagarnsonawane99@gmail.com" style={{ display: "flex", flexDirection: "column", alignItems: "center", textDecoration: "none" }}>
+            <a href="mailto:sagarnsonawane575@gmail.com " style={{ display: "flex", flexDirection: "column", alignItems: "center", textDecoration: "none" }}>
               <img src={mail} alt="Mail" />
-              <span style={{ marginTop: "5px", textAlign: "center" }}>Mail</span>
+              <span style={{ marginTop: "5px", textAlign: "center", color:"greenyellow" }}>Mail</span>
             </a>
           </li>
         </ul>
@@ -68,13 +68,13 @@ END:VCARD`;
           justifyContent: "center", 
           textAlign: "center"
         }}>
-          <li style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "10px" }}>
+          <li style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "10px", fontSize:"18px", color:"#ffbb00b2" }}>
             <img src={direction} alt="Direction" style={{ width: "50px", height: "50px", borderRadius: "50%" }} />
-            <span>Find Us</span>
+            <span>Sonawane Dairy Farm, Hirapur, Maharashtra 431007</span>
           </li>
-          <li style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <li style={{ display: "flex", alignItems: "center", gap: "10px", fontSize:"18px",  color:"#ffbb00b2" }}>
             <img src={phoneIcon} alt="Call Us" style={{ width: "50px", height: "50px", borderRadius: "50%" }} />
-            <span>Call Us</span>
+            <span>+91-8554940296</span>
           </li>
         </ul>
         {/* Add to Phonebook & Save Card Buttons */}

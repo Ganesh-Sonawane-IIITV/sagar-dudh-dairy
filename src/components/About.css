@@ -19,22 +19,24 @@
     max-width: 800px;
     margin: auto;
     padding: 50px 20px;
+    
   }
 #about {
     align-items: center;
       text-align: center;
-      padding: 10px; /* Reduced padding */
-      border: 2px solid #ddd;
+      padding: 5px; /* Reduced padding */
+      border: 5px solid #e71c1c;
       border-radius: 10px;
-      background-color: white;
   }
 
 /* Header Styling */
 #about h1 {
     font-size: 28px;
-    color: #d83535;
+    color: #ff8800;
     text-transform: uppercase;
     margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 
 .colored-line {
@@ -47,34 +49,36 @@
 /* Company Details */
 .Company-detail {
     font-size: 20px;
-    background-color: #f8f8f8;
+    background-color: #eda81f6d;
     width: 90%;
     max-width: 850px;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
+    border: 1px solid #beafaf;
+    margin: 30px auto;
 }
 
 /* Speciality Section */
 .speciality-container {
     padding: 20px;
-    margin: 30px auto;
+    margin: 10px auto;
     width: 90%;
     max-width: 700px;
-    background-color: #f9f9f9;
+    background-color: #eda81f6d;
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     text-align: left;
+    border: 1px solid #beafaf;
 }
 
 .speciality-heading {
-    color: #d83535;
+    color: #fcf004;
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: bold;
+    text-align: center;
 }
 
 .specialities-list {
@@ -86,10 +90,11 @@
 
 .specialities-list li {
     font-size: 18px;
-    margin: 10px 0;
+    margin: 20px 0;
     display: flex;
     align-items: center;
     transition: all 0.3s ease-in-out;
+    font-weight: 780;
 }
 
 .specialities-list li::before {
@@ -101,7 +106,7 @@
 }
 
 .specialities-list li:hover {
-    background-color: rgba(222, 16, 12, 0.1);
+    background-color: rgba(255, 0, 0, 0.1);
     padding-left: 15px;
     cursor: pointer;
 }
@@ -109,7 +114,7 @@
 .highlight-text {
     font-size: 22px;
     font-weight: bold;
-    color: #de100c;
+    color: #fff700;
     margin-top: 20px;
     text-align: center;
 }
